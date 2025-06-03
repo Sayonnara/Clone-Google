@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+}
+
+body {
+    background-color: #333; /* Cor  de  fundo */
+    font-family: Arial, Helvetica, sans-serif; /*Fonte usada na letra  */
+    display: flex; /* Ativa  o Flexbox, que  facilita o  alinhamento de elementos  filhos */
+    justify-content: center; /*Centraliza  horizontalmente o conteúdo do body */
+    align-items: center; /*Centraliza verticalmentea o conteudo do body */
+    height: 100vh; /* Faz o body  ocupar 100% da ALTURA da janela (Viewport height )*/
+    color: white; /* Define a cor do texto */
+
+}
+
+.container {
+  text-align: center;
+}
+
+
+.logo {
+    font-size: 92px; /* */
+    font-weight: 600;
+    margin-bottom: 30px;
+    
+}
+
+/* background-color: #1b98c2;*/
+.search-box {
+
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    width: 700px;
+    max-width: 90%;
+    margin:  0 10px;
+}
+.search-box input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    font-size: 15px;
+   
+
+}
+.search-box i{
+   padding: 5px;
+   font-size: 100%;
+   cursor: pointer;
+}
